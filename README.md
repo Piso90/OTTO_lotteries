@@ -1,3 +1,7 @@
+OTTO - the numbers of lotteries
+
+_instruction_
+
 1. insert your name
 2. select the game
 3. follow the instructions
