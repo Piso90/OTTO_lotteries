@@ -57,6 +57,10 @@ print("Ciao ", nome, ", a quale gioco voi partecipare?")
 print("1. SUPERENALOTTO")
 print("2. GIOCO DEL LOTTO")
 print("")
+print("3. TERMINA PROGRAMMA ORA")
+print("")
+print("")
+time.sleep(1)
 gioco = input("Digita il numero del gioco corrispontente: ")
 time.sleep(1)
 print("")
@@ -192,9 +196,12 @@ if tipogioco == 2:
     print("<< TERMINE PROGRAMMA >>")
 
 #FINE GIOCO LOTTO
-if tipogioco == 0 or tipogioco >2:
+if tipogioco >2:
     print("Il numero inserito non è corretto, il programma verrà terminato")
     print("")
+    time.sleep(1)
+    print("<< TERMINE PROGRAMMA >>")
+if tipogioco == 0:
     time.sleep(1)
     print("<< TERMINE PROGRAMMA >>")
 quit()
