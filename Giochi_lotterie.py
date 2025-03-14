@@ -27,7 +27,6 @@ def generate_numoro():
     numoro = random.randint(1, 90)
     return numoro
 
-
 print("")
 print("----LOADING_PROGRAM----")
 print("")
