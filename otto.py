@@ -1,5 +1,9 @@
 import random
 import time
+import os
+
+def clearScreen():
+    os.system("cls")
 
 def generate_numbers():
     numeri = random.sample(range(1, 91), 6)
@@ -36,6 +40,7 @@ print("")
 time.sleep(1)
 print("----STARTING----")
 time.sleep(1)
+clearScreen()
 print("")
 nome = input("Dimmi il tuo nome per procedere: ")
 print("")
