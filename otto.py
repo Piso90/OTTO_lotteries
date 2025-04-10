@@ -58,7 +58,7 @@ repeat = "y"
 risposta = "y"
 conta = 0
 
-print("Ciao ", nome, ", a quale gioco voi partecipare?")
+print("Ciao ", nome, ", a quale gioco vuoi partecipare?")
 print("1. SUPERENALOTTO")
 print("2. GIOCO DEL LOTTO")
 print("")
