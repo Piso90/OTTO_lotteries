@@ -59,9 +59,11 @@ risposta = "y"
 conta = 0
 
 print("Ciao ", nome, ", a quale gioco vuoi partecipare?")
+time.sleep(1)
 print("1. SUPERENALOTTO")
 print("2. GIOCO DEL LOTTO")
 print("")
+time.sleep(1)
 print("0. TERMINA PROGRAMMA ORA")
 print("")
 print("")
